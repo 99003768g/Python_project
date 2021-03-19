@@ -17,4 +17,5 @@ Problem Statement:
 | --- | --- | -- |
 |L1 | Each Sheet Contains 40 rows and 10 columns | Data will be searched from these files |
 |L2 | Create Mastersheet  | Mastersheet holds value for required keyword searches   |
+|L3 | Plot Bar graph  | Plot bar graph for any two rows/columns   |
 
