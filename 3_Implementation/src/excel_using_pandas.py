@@ -30,12 +30,12 @@ if something == "PS":
 
     writer = pd.ExcelWriter(path, engine='openpyxl')
     writer.book = book
-    if 'Mastersheet' in book.sheetnames:
-        reference = book['Mastersheet']
+    if 'Outputsheet' in book.sheetnames:
+        reference = book['Outputsheet']
         book.remove(reference)
 
 # Write into excel sheet out.xlsx
-    result.to_excel(writer, sheet_name='Mastersheet')
+    result.to_excel(writer, sheet_name='Outputsheet')
 
 # For Plotting bar graph
     pivot = df1.groupby(['PS_Number']).mean()
@@ -70,12 +70,12 @@ elif something == "NAME":
 
     writer = pd.ExcelWriter(path, engine='openpyxl')
     writer.book = book
-    if 'Mastersheet' in book.sheetnames:
-        reference = book['Mastersheet']
+    if 'Outputsheet' in book.sheetnames:
+        reference = book['Outputsheet']
         book.remove(reference)
 
     # Write into excel sheet out.xlsx
-    result.to_excel(writer, sheet_name='Mastersheet')
+    result.to_excel(writer, sheet_name='Outputsheet')
 
     # For Plotting bar graph
     pivot = df1.groupby(['PS_Number']).mean()
@@ -111,12 +111,12 @@ elif something == "EMAIL":
 
     writer = pd.ExcelWriter(path, engine='openpyxl')
     writer.book = book
-    if 'Mastersheet' in book.sheetnames:
-        reference = book['Mastersheet']
+    if 'Outputsheet' in book.sheetnames:
+        reference = book['Outputsheet']
         book.remove(reference)
 
     # Write into excel sheet out.xlsx
-    result.to_excel(writer, sheet_name='Mastersheet')
+    result.to_excel(writer, sheet_name='Outputsheet')
 
     # For Plotting bar graph
     pivot = df1.groupby(['PS_Number']).mean()
