@@ -12,7 +12,6 @@ something = input("ENTER PS or NAME or EMAIL as key: ")
 # Checking for what input is given, if it is PS , then program flow goes to here
 if something == "PS":
     PS = int(input("Enter PS: "))
-    df = pd.DataFrame()
 
 # iterate for number of excel sheets inside the book.xlsx
     for i in excel_file.sheet_names:
@@ -52,7 +51,6 @@ elif something == "NAME":
 
     # Checking for what input is given, if it is PS , then program flow goes to here
     NAME = input("Enter NAME: ")
-    df = pd.DataFrame()
 
     # iterate for number of excel sheets inside the book.xlsx
     for i in excel_file.sheet_names:
@@ -93,7 +91,6 @@ elif something == "EMAIL":
 
     # Checking for what input is given, if it is PS , then program flow goes to here
     EMAIL = input("Enter Email: ")
-    df = pd.DataFrame()
 
     # iterate for number of excel sheets inside the book.xlsx
     for i in excel_file.sheet_names:
