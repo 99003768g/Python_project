@@ -46,6 +46,7 @@ if something == "PS":
     pt.show()
     writer.save()
     writer.close()
+    print("\nWRITING INTO EXCEL DONE")
 
 elif something == "NAME":
 
@@ -85,6 +86,7 @@ elif something == "NAME":
     pt.show()
     writer.save()
     writer.close()
+    print("\nWRITING INTO EXCEL DONE")
 
 
 elif something == "EMAIL":
@@ -125,6 +127,7 @@ elif something == "EMAIL":
     pt.show()
     writer.save()
     writer.close()
+    print("\nWRITING INTO EXCEL DONE")
 
 else:
     print("Valid keyword not entered Dude!")
