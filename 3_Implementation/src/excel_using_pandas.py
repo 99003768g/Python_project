@@ -42,7 +42,7 @@ if something == "PS":
     variable = pivot.loc[:, "Training_Room_5":"Team_No_5"]
     variable.plot(kind='bar')
 
-# Show th bar graph in the window
+# Show the bar graph in the window
     pt.show()
     writer.save()
     writer.close()
@@ -82,7 +82,7 @@ elif something == "NAME":
     variable = pivot.loc[:, "Training_Room_5":"Team_No_5"]
     variable.plot(kind='bar')
 
-    # Show th bar graph in the window
+    # Show the bar graph in the window
     pt.show()
     writer.save()
     writer.close()
