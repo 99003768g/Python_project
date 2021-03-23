@@ -6,5 +6,5 @@
 3.) After entering any of the keyword, it goes into corresponding keyword block. For example, if you entered keyword as NAME, then it next asks for Name.
 Data Excel sheet book.xlsx is present in 3_Implementation/src
 
-4.) Now corresponding data will be printed into excel sheet and bar graph will be plotted. 
+4.) Bar graph will be plotted. After bar graph is closed, data will be written into the excel sheet with the status printed onto the console.
     Here the data will be printed into the out.xlsx excel sheet.
